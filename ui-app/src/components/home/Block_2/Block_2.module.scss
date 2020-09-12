@@ -1,0 +1,51 @@
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-top: 4vh;
+  .leftBlock{
+    width: 72%;
+    height: 25vh;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .item{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      svg{
+        font-size: 3.8vw;
+        color: #591499;
+      }
+      p{
+        color: #591499;
+        padding-top: 2vh;
+        font-family: myFont, sans-serif;
+        font-weight: bold;
+      }
+    }
+  }
+  .rightBlock{
+    width: 26%;
+    height: 25vh;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    svg{
+      font-size: 3.8vw;
+      color: #591499;
+    }
+    p{
+      color: #591499;
+      padding-top: 2vh;
+      font-family: myFont, sans-serif;
+      font-weight: bold;
+    }
+  }
+}

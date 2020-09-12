@@ -1,0 +1,13 @@
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-top: 4vh;
+  >div{
+    width: 32%;
+    border-radius: 50px;
+    background-color: white;
+    height: 60vh;
+    padding: 3%;
+  }
+}

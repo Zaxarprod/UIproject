@@ -1,0 +1,27 @@
+.nav{
+  background-color: #591499;
+  border-radius: 17px;
+  display: flex;
+  width: 40%;
+  .item{
+    width: calc(100%/3);
+    display: flex;
+    justify-content: center;
+    a{
+      color: #fafafa;
+      text-decoration: none;
+      width: 100%;
+      text-align: center;
+    }
+    .active{
+      background-color: #420f72;
+      color: white;
+    }
+  }
+  .item:first-child a{
+    border-radius: 17px 0px 0px 17px;
+  }
+  .item:last-child a{
+    border-radius: 0px 17px 17px 0px;
+  }
+}
