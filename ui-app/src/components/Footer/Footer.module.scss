@@ -1,0 +1,64 @@
+.footer{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4vh;
+  padding-bottom: 1.5vh;
+  .form{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    form{
+      display: flex;
+    }
+    .text{
+      transform: translateX(-15px);
+      border-radius: 17px;
+      border: none;
+      padding-left: 20px;
+      box-sizing: border-box;
+    }
+    button{
+      background-color: #591499;
+      min-width: 60px;
+      height: 60px;
+      text-align: center;
+      border-radius: 17px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      svg{
+        font-size: 2rem;
+        font-family: myFont, sans-serif;
+        font-weight: bold;
+        color: #fafafa;
+        margin: 0;
+      }
+    }
+  }
+  .snBlock{
+    width: 60%;
+    display: flex;
+    //justify-content: space-between;
+  }
+  .item{
+    background-color: #591499;
+    min-width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6%;
+    svg{
+      font-size: 2rem;
+      font-family: myFont, sans-serif;
+      font-weight: bold;
+      color: #fafafa;
+      margin: 0;
+    }
+  }
+}

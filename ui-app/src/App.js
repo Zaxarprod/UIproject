@@ -4,6 +4,7 @@ import { Layout } from 'antd'
 import {Home} from "./components/home/Home";
 import Route from "react-router-dom/es/Route";
 import {MyHeader} from "./components/MyHeader/MyHeader";
+import {MyFooter} from "./components/Footer/MyFooter";
 
 const { Header, Footer, Content } = Layout
 
@@ -16,7 +17,9 @@ const App = () => {
           <Content>
               <Route path={'/'} component={Home} />
           </Content>
-          <Footer className={style.footer}>Footer</Footer>
+          <Footer className={style.footer}>
+              <MyFooter />
+          </Footer>
       </Layout>
   )
 }
