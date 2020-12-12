@@ -1,0 +1,27 @@
+.articles{
+  width: 80%;
+  margin: auto;
+  padding-top: 5vw;
+  a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 1vw;
+    background: #591499;
+    margin-bottom: 2vw;
+    padding: 2vw;
+    h2{
+      font-size: 2vw;
+      margin: 0;
+      color: white;
+      margin-bottom: 1vw;
+      width: 100%;
+    }
+    p{
+      font-size: 1.2vw;
+      color: white;
+    }
+  }
+}

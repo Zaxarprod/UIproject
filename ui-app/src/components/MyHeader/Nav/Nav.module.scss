@@ -2,7 +2,7 @@
   background-color: #591499;
   border-radius: 17px;
   display: flex;
-  width: 40%;
+  width: 60%;
   .item{
     width: calc(100%/3);
     display: flex;
@@ -12,6 +12,7 @@
       text-decoration: none;
       width: 100%;
       text-align: center;
+      font-size: 1.2vw;
     }
     .active{
       background-color: #420f72;

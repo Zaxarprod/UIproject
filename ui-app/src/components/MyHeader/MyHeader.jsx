@@ -1,7 +1,7 @@
 import React from "react"
 import style from './MyHeader.module.scss'
-import {SearchOutlined} from '@ant-design/icons'
-import {Nav} from "./Nav/Nav";
+import {Nav} from "./Nav/Nav"
+import {Search} from "./Search/Search";
 
 export const MyHeader = () => {
     return (
@@ -10,9 +10,7 @@ export const MyHeader = () => {
                 <h3>UI</h3>
             </div>
             <Nav />
-            <div className={style.search}>
-                <SearchOutlined />
-            </div>
+            <Search />
         </div>
     )
 }

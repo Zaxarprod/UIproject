@@ -9,7 +9,7 @@
   align-items: center;
   .header{
     color: #591499;
-    font-size: 3.5rem;
+    font-size: 4vw;
     font-family: myFont, sans-serif;
     font-weight: bold;
   }
@@ -17,5 +17,9 @@
     width: 350px;
     height: 300px;
     background-color: #591499;
+    img{
+      width: 350px;
+      height: 300px;
+    }
   }
 }

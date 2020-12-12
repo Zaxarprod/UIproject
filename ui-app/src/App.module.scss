@@ -1,5 +1,8 @@
-.header{
+.mainWrapper{
   background-color: blueviolet;
+}
+.header{
+  background-color: rgba(0,0,0,0);
   display: flex;
   justify-content: center;
   width: 100%;
@@ -8,6 +11,9 @@
   padding: 0;
   padding-top: 2vh;
   padding-bottom: 2vh;
+  position: sticky;
+  top:0;
+  z-index: 1000;
 }
 .footer{
   background-color: blueviolet;

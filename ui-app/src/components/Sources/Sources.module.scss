@@ -1,0 +1,36 @@
+.sources{
+  width: 80%;
+  margin: auto;
+  padding-top: 5vw;
+  >div{
+    width: 100%;
+    padding: 3vw;
+    border-radius: 1vw;
+    >h2{
+      color: white;
+      font-size: 3vw;
+      margin: 0;
+      margin-bottom: 3vw;
+      font-weight: bold;
+    }
+    a{
+      display: block;
+      width: 100%;
+      padding: 2vw;
+      border-radius: 1vw;
+      background-color: white;
+      margin-bottom: 1vw;
+      h2{
+        color: #420f72;
+        font-size: 1.8vw;
+        margin: 0;
+        margin-bottom: 2vw;
+      }
+      p{
+        color: #420f72;
+        font-size: 1.3vw;
+        margin: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.contacts{
+  width: 80%;
+  padding-top: 5vw;
+  margin: auto;
+  >div{
+    width: 100%;
+    padding: 3vw;
+    border-radius: 1vw;
+    background-color: #591499;
+    display: flex;
+    img{
+      width: 30%;
+      border-radius: 1vw;
+    }
+    >div{
+      padding-left: 3vw;
+      h2{
+        color: white;
+        font-size: 2vw;
+        margin: 0;
+        margin-bottom: 3vw;
+      }
+      >div{
+        display: flex;
+        color: white;
+        font-size: 1.5vw;
+        align-items: center;
+        margin-bottom: 1vw;
+        svg{
+          font-size: 2vw;
+          color: white;
+          margin-right: 1vw;
+        }
+      }
+    }
+  }
+}

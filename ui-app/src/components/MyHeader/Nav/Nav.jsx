@@ -16,6 +16,15 @@ export const Nav = () => {
             </div>
             <div className={style.item}>
                 <NavLink
+                    to={'/articles'}
+                    exact
+                    activeClassName={style.active}
+                >
+                    Articles
+                </NavLink>
+            </div>
+            <div className={style.item}>
+                <NavLink
                     exact
                     to={'/constructor'}
                     activeClassName={style.active}
@@ -26,10 +35,19 @@ export const Nav = () => {
             <div className={style.item}>
                 <NavLink
                     exact
-                    to={'/info'}
+                    to={'/contacts'}
                     activeClassName={style.active}
                 >
-                    Info
+                    Contacts
+                </NavLink>
+            </div>
+            <div className={style.item}>
+                <NavLink
+                    exact
+                    to={'/sources'}
+                    activeClassName={style.active}
+                >
+                    Sources
                 </NavLink>
             </div>
         </div>
